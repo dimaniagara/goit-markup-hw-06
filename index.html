@@ -119,15 +119,13 @@
                   ></textarea>
                 </li>
                 <li>
-                  <input
-                    class="form-input"
+                  <label class="checkbox-label"
+                    ><input
+                    class="checkbox"
                     type="checkbox"
                     name="policy"
-                    id="policy"
-                  />
-                  <label class="field-label" for="policy"
-                    >Соглашаюсь с рассылкой и принимаю
-                    <a href="#">Условия договора</a></label
+                  /><span class="checkbox-icon"></span>Соглашаюсь с рассылкой и принимаю
+                  &nbsp<a class="privacy-policy" href="#">Условия договора</a></label
                   >
                 </li>
               </ul>
@@ -527,7 +525,7 @@
                 name="subscriptionEmail"
                 placeholder="E-mail"
               />
-              <button class="button-subscribe" type="submit">Подписаться
+              <button class="button-subscribe" type="submit"><span class="subscribe-label">Подписаться</span>
                 <svg class="subscribe-icon-footer" width="24px" height="24px">
                   <use href="./images/svg-sprite.svg#icon-icon-send"></use>
                 </svg>
