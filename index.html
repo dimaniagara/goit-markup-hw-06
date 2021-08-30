@@ -91,27 +91,30 @@
                 <li class="customer-labels">
                   <label class="field-label" for="tel">Телефон</label>
                   <div class="field">
-                  <input class="form-input" type="tel" name="tel" id="tel" />
-                  <svg class="field-icon" width="18px" height="18px">
-                    <use href="./images/svg-sprite.svg#icon-phone"></use>
-                  </svg>
+                    <input class="form-input" type="tel" name="tel" id="tel" />
+                    <svg class="field-icon" width="18px" height="18px">
+                      <use href="./images/svg-sprite.svg#icon-phone"></use>
+                    </svg>
+                  </div>
                 </li>
                 <li class="customer-labels">
-                  <label class="field-label" for="mail">Почта</label>
+                  <label class="field-label" for="email">Почта</label>
                   <div class="field">
-                  <input
-                    class="form-input"
-                    type="email"
-                    name="email"
-                    id="email"
-                  />
-                  <svg class="field-icon" width="18px" height="18px">
-                    <use href="./images/svg-sprite.svg#icon-email"></use>
-                  </svg>
+                    <input
+                      class="form-input"
+                      type="email"
+                      name="email"
+                      id="email"
+                    />
+                    <svg class="field-icon" width="18px" height="18px">
+                      <use href="./images/svg-sprite.svg#icon-email"></use>
+                    </svg>
+                  </div>
                 </li>
                 <li>
                   <label class="field-label" for="comment">Комментарий</label>
-                  <textarea class="form-input form-textarea"
+                  <textarea
+                    class="form-input form-textarea"
                     name="comment"
                     id="comment"
                     rows="4"
@@ -121,17 +124,19 @@
                 <li>
                   <label class="checkbox-label"
                     ><input
-                    class="checkbox"
-                    type="checkbox"
-                    name="policy"
-                  /><span class="checkbox-icon"></span>Соглашаюсь с рассылкой и принимаю
-                  &nbsp<a class="privacy-policy" href="#">Условия договора</a></label
+                      class="checkbox"
+                      type="checkbox"
+                      name="policy"
+                    /><span class="checkbox-icon"></span>Соглашаюсь с рассылкой
+                    и принимаю &nbsp;<a class="privacy-policy" href="#"
+                      >Условия договора</a
+                    ></label
                   >
                 </li>
               </ul>
               <div class="button-container">
-              <button class="button-submit" type="submit">Отправить</button>
-            </div>
+                <button class="button-submit" type="submit">Отправить</button>
+              </div>
             </form>
           </div>
         </div>
@@ -520,12 +525,14 @@
           <li class="subscription">
             <h3 class="join-title">Подпишитесь на рассылку</h3>
             <form class="subscription-form">
-              <input class="subscription-email"
+              <input
+                class="subscription-email"
                 type="email"
                 name="subscriptionEmail"
                 placeholder="E-mail"
               />
-              <button class="button-subscribe" type="submit"><span class="subscribe-label">Подписаться</span>
+              <button class="button-subscribe" type="submit">
+                <span class="subscribe-label">Подписаться</span>
                 <svg class="subscribe-icon-footer" width="24px" height="24px">
                   <use href="./images/svg-sprite.svg#icon-icon-send"></use>
                 </svg>
